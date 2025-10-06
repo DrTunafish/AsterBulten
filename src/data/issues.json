@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "2021-03",
+    "title": "MART 2021 BASKISI",
+    "volume": 1,
+    "issue": 1,
+    "date": "2021-03-01",
+    "cover": "/og-image.jpg",
+    "pdf": "/issues/2021-03/issue.pdf",
+    "description": "Magazine issue for March 2021.",
+    "editors": ["N. Ada Bekiroğlu"],
+    "authors": ["Tunahan Öksüz", "N. Ada Bekiroğlu"],
+    "tags": ["astrofotoğraf", "gökbilim"],
+    "featured": false
+  },
+  {
+    "slug": "2022-01",
+    "title": "OCAK 2022 BASKISI",
+    "volume": 1,
+    "issue": 2,
+    "date": "2022-01-01",
+    "cover": "/og-image.jpg",
+    "pdf": "/issues/2022-01/issue.pdf",
+    "description": "Magazine issue for January 2022.",
+    "editors": ["N. Ada Bekiroğlu"],
+    "authors": ["Tunahan Öksüz", "N. Ada Bekiroğlu"],
+    "tags": ["yıldızharitası", "gökcisimleri"],
+    "featured": false
+  },
+  {
+    "slug": "2022-02",
+    "title": "ŞUBAT 2022 BASKISI",
+    "volume": 1,
+    "issue": 3,
+    "date": "2022-02-01",
+    "cover": "/og-image.jpg",
+    "pdf": "/issues/2022-02/issue.pdf",
+    "description": "Magazine issue for February 2022.",
+    "editors": ["N. Ada Bekiroğlu"],
+    "authors": ["Tunahan Öksüz", "N. Ada Bekiroğlu"],
+    "tags": ["yıldızharitası", "gökcisimleri"],
+    "featured": false
+  },
+  {
+    "slug": "2022-04",
+    "title": "NİSAN 2022 BASKISI",
+    "volume": 1,
+    "issue": 4,
+    "date": "2022-04-01",
+    "cover": "/og-image.jpg",
+    "pdf": "/issues/2022-04/issue.pdf",
+    "description": "Magazine issue for April 2022.",
+    "editors": ["N. Ada Bekiroğlu"],
+    "authors": ["Tunahan Öksüz", "N. Ada Bekiroğlu"],
+    "tags": ["yıldızharitası", "gökcisimleri"],
+    "featured": false
+  }
+]

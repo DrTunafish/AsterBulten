@@ -1,0 +1,15 @@
+# Astronomi Dergisi - robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://astronomi-dergisi.com/sitemap.xml
+
+# Disallow admin or private areas (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl-delay (if needed for rate limiting)
+# Crawl-delay: 1
+

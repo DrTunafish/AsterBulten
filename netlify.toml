@@ -1,0 +1,47 @@
+# Astronomi Dergisi - Netlify Configuration
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and caching
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.pdf"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+# Optional: Netlify Forms configuration (if using contact form)
+# [build.environment]
+#   NODE_VERSION = "20"
+
+# Optional: Custom domain
+# [[redirects]]
+#   from = "https://www.astronomi-dergisi.com/*"
+#   to = "https://astronomi-dergisi.com/:splat"
+#   status = 301
+#   force = true
+
