@@ -13,7 +13,7 @@ interface PdfViewerProps {
  * PDF görüntüleyici component - react-pdf kullanır
  * Sayfa navigasyonu, zoom ve indirme özellikleri
  */
-function PdfViewer({ pdfUrl, title }: PdfViewerProps) {
+function PdfViewer({ pdfUrl }: PdfViewerProps) {
   const [numPages, setNumPages] = useState<number>(0)
   const [pageNumber, setPageNumber] = useState<number>(1)
   const [scale, setScale] = useState<number>(1.0)

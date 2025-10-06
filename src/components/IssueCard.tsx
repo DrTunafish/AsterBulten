@@ -13,7 +13,7 @@ interface IssueCardProps {
  */
 function IssueCard({ issue }: IssueCardProps) {
   const [pdfError, setPdfError] = useState<boolean>(false)
-  const [isPdfReady, setIsPdfReady] = useState<boolean>(false)
+  const [, setIsPdfReady] = useState<boolean>(false)
   // Tarihi formatla
   const formattedDate = new Date(issue.date).toLocaleDateString('tr-TR', {
     year: 'numeric',
